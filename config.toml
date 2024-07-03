@@ -1,6 +1,6 @@
 baseURL = "https://siir.pub"
 languageCode = "en-us"
-title = "Lawyer Hugo Grotius"
+title = "SIIR"
 theme = "notrack"
 newContentEditor = "nvim"
 mainSections = ["blog"]
