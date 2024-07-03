@@ -2,94 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://siir.pub/tags/</loc>
     <lastmod>2020-06-06T22:49:19+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://siir.pub/categories/</loc>
     <lastmod>2020-06-06T22:48:29+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/latin/</loc>
+    <loc>https://siir.pub/tags/latin/</loc>
     <lastmod>2020-06-04T23:30:14+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/lorem/</loc>
+    <loc>https://siir.pub/categories/lorem/</loc>
     <lastmod>2020-06-04T23:30:14+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/medieval/</loc>
+    <loc>https://siir.pub/tags/medieval/</loc>
     <lastmod>2020-06-04T23:30:14+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/picture/</loc>
+    <loc>https://siir.pub/tags/picture/</loc>
     <lastmod>2020-06-04T23:30:14+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/2020/06/picture-shortcode-test/</loc>
+    <loc>https://siir.pub/blog/2020/06/picture-shortcode-test/</loc>
     <lastmod>2020-06-04T23:30:14+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/theme/</loc>
+    <loc>https://siir.pub/categories/theme/</loc>
     <lastmod>2020-06-04T23:30:14+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/ipsum/</loc>
+    <loc>https://siir.pub/tags/ipsum/</loc>
     <lastmod>2020-06-04T23:21:09+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/2020/06/tempora-maxime/</loc>
+    <loc>https://siir.pub/blog/2020/06/tempora-maxime/</loc>
     <lastmod>2020-06-04T23:21:09+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/test-tag/</loc>
+    <loc>https://siir.pub/tags/test-tag/</loc>
     <lastmod>2020-06-04T23:21:09+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://siir.pub/blog/</loc>
     <lastmod>2020-06-04T23:15:33+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://siir.pub/contact/</loc>
     <lastmod>2020-06-04T23:03:21+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/hugo-gallery/</loc>
+    <loc>https://siir.pub/hugo-gallery/</loc>
     <lastmod>2020-06-04T21:53:11+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/resume/</loc>
+    <loc>https://siir.pub/resume/</loc>
     <lastmod>2020-06-01T17:11:12+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://siir.pub/</loc>
     <lastmod>2020-06-01T16:16:24+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/dolor/</loc>
+    <loc>https://siir.pub/tags/dolor/</loc>
     <lastmod>2020-06-01T16:09:23+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/2020/06/lorem/</loc>
+    <loc>https://siir.pub/blog/2020/06/lorem/</loc>
     <lastmod>2020-06-01T16:09:23+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/css/</loc>
+    <loc>https://siir.pub/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/html/</loc>
+    <loc>https://siir.pub/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/markdown/</loc>
+    <loc>https://siir.pub/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/2019/03/markdown-syntax-guide/</loc>
+    <loc>https://siir.pub/blog/2019/03/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/syntax/</loc>
+    <loc>https://siir.pub/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/themes/</loc>
+    <loc>https://siir.pub/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/themes/</loc>
+    <loc>https://siir.pub/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/privacy/</loc>
+    <loc>https://siir.pub/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/2019/03/rich-content/</loc>
+    <loc>https://siir.pub/blog/2019/03/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/shortcodes/</loc>
+    <loc>https://siir.pub/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/</loc>
+    <loc>https://siir.pub/archive/</loc>
   </url><url>
-    <loc>http://example.org/month/</loc>
+    <loc>https://siir.pub/month/</loc>
   </url><url>
-    <loc>http://example.org/year/</loc>
+    <loc>https://siir.pub/year/</loc>
   </url>
 </urlset>
