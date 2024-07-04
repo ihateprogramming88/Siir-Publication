@@ -1,0 +1,11 @@
+#reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: #5b9dd9;
+  width: 0;
+  z-index: 9999;
+  transition: width 0.2s ease-in-out;
+}
+

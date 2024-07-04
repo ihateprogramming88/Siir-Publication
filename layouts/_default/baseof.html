@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <head>
+        <!-- Add your custom CSS file here -->
+        <link rel="stylesheet" href="/css/custom.css">
+    </head>
+    <body>
+        <!-- Reading progress bar -->
+        <div id="reading-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+        
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+
+        <!-- Add your JavaScript file here -->
+        <script src="/js/reading-progress.js"></script>
+    </body>
+</html>
+

@@ -16,6 +16,8 @@ paginate = 4
   showTaxonomyLinks = false
   nBlogLatest = 4 # number of blog post om the home page
   blogLatestHeading = "My writing"
+  showReadingTime = true
+  showProgressBar = true
 
   [params.social]
     github = "example"
@@ -33,3 +35,16 @@ paginate = 4
 
 [permalinks]
   blog = "/blog/:year/:month/:slug"
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    noClasses = false
+    guessSyntax = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
