@@ -1,24 +1,29 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var progressBar = document.getElementById('reading-progress-bar');
-  var content = document.body;
-  var windowHeight = window.innerHeight;
-  var documentHeight = Math.max(
+  const progressBar = document.getElementById('reading-progress-bar');
+  if (!progressBar) {
+    console.error('Reading progress bar element not found');
+    return;
+  }
+
+  const content = document.body;
+  let windowHeight = window.innerHeight;
+  let documentHeight = Math.max(
     content.scrollHeight,
     content.offsetHeight,
     content.clientHeight
   );
-  var readableLength = documentHeight - windowHeight;
+  let readableLength = documentHeight - windowHeight;
 
-  var lastKnownScrollPosition = 0;
-  var ticking = false;
+  let lastKnownScrollPosition = 0;
+  let ticking = false;
 
   function updateProgressBar(scrollPos) {
-    var progressPercentage = (scrollPos / readableLength) * 100;
+    const progressPercentage = (scrollPos / readableLength) * 100;
     progressBar.style.transform = `translateX(${progressPercentage - 100}%)`;
   }
 
-  window.addEventListener('scroll', function(e) {
-    lastKnownScrollPosition = window.scrollY;
+  function handleScroll() {
+    lastKnownScrollPosition = window.pageYOffset;
 
     if (!ticking) {
       window.requestAnimationFrame(function() {
@@ -28,9 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
       ticking = true;
     }
-  });
+  }
 
-  window.addEventListener('resize', function() {
+  window.addEventListener('scroll', handleScroll, { passive: true });
+
+  function handleResize() {
     windowHeight = window.innerHeight;
     documentHeight = Math.max(
       content.scrollHeight,
@@ -38,7 +45,10 @@ document.addEventListener('DOMContentLoaded', function() {
       content.clientHeight
     );
     readableLength = documentHeight - windowHeight;
-  });
+    updateProgressBar(window.pageYOffset);
+  }
 
-  updateProgressBar(window.scrollY);
+  window.addEventListener('resize', handleResize);
+
+  updateProgressBar(window.pageYOffset);
 });
