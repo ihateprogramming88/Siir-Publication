@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
     <head>
+        {{- partial "head.html" . -}}
         <!-- Add your custom CSS file here -->
-        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
     </head>
     <body>
         <!-- Reading progress bar -->
-        <div id="reading-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+        <div id="progressBar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
         
         {{- partial "header.html" . -}}
         <div id="content">
@@ -16,7 +16,6 @@
         {{- partial "footer.html" . -}}
 
         <!-- Add your JavaScript file here -->
-        <script src="/js/reading-progress.js"></script>
+        <script src="{{ "js/reading-progress.js" | relURL }}"></script>
     </body>
 </html>
-

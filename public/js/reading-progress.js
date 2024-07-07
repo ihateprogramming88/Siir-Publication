@@ -1,17 +1,11 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var progressBar = document.getElementById('reading-progress-bar');
-  var body = document.body;
-  var html = document.documentElement;
+function progressBar() {
+  var bar = document.getElementById("progressBar");
 
-  function updateProgressBar() {
-    var scrollTop = body.scrollTop || html.scrollTop;
-    var height = html.scrollHeight - html.clientHeight;
-    var progress = (scrollTop / height) * 100;
-    progressBar.style.width = progress + '%';
-    progressBar.setAttribute('aria-valuenow', progress);
-  }
+  document.addEventListener('scroll', () => {
+    var scrollPercent = document.documentElement.scrollTop / (document.documentElement.scrollHeight - window.innerHeight) * 100;
+    if (scrollPercent >= 99) { scrollPercent = 0 };
+    bar.style.setProperty("--scrollAmount", scrollPercent + '%');
+  })
+}
 
-  window.addEventListener('scroll', updateProgressBar);
-  updateProgressBar();
-});
-
+if (document.getElementById("progressBar")) progressBar();
