@@ -19,6 +19,8 @@ paginate = 4
   showReadingTime = true
   showProgressBar = true
   description = "A site dedicated to Security Intelligence and International Relations" # Add this line for default description
+  defaultOGImage = "img/siirpub5.jpg"  # Adjust the path as necessary
+
 
   [params.social]
     github = "example"
