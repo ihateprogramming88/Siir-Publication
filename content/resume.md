@@ -19,14 +19,44 @@ shipwrecked.
 
 ### Dr. Andrew Kapos
 
+Dr. Andrew Kapos is a distinguished academic with extensive experience in the fields of Intelligence Studies, International Relations, Terrorism Studies, and Strategic Security Studies. He holds a PhD in International Relations from the University of New South Wales (UNSW) and currently serves as a sessional lecturer and tutor across multiple departments at Macquarie University.
+
 #### Bio
-[Insert Dr. Andrew Kapos's biography here]
+Dr. Kapos brings a wealth of knowledge and expertise to his roles in the Department of Security Studies, Department of International Relations, and Department of History at Macquarie University. His interdisciplinary approach is further exemplified by his position as a Lecturer in Greek Mythology at the University of NSW Sydney.
 
 #### Credentials
-[List Dr. Andrew Kapos's credentials here]
+- PhD in International Relations, University of New South Wales (UNSW)
+- Sessional Lecturer and Tutor, Macquarie University
+- Lecturer in Greek Mythology, University of NSW Sydney
 
-#### Work Experience
-[Describe Dr. Andrew Kapos's work experience here]
+#### Research Interests
+Dr. Kapos's academic pursuits span a wide range of fields, including:
+
+- International Relations Theory
+- Strategic Studies
+- International Security
+- Intelligence Studies
+- International History
+- Diplomacy and Statecraft
+- International Political Economy
+- Terrorism Studies
+- Middle Eastern Studies
+- History of Political Thought
+- Political Theology
+- Greek Mythology
+- Fine Arts and Aesthetics
+
+#### Teaching
+Dr. Kapos is dedicated to educating both undergraduate and postgraduate students through lecture classes, tutorials, and seminars. For the 2024 academic year, he will be teaching the following courses:
+
+- Ethical Practice in Security Studies
+- International Terrorism
+- A History of Terrorism
+- Leadership and Strategic Decision-Making
+- Intelligence Policy
+- Greek Mythology
+
+Dr. Kapos's website serves as a platform for sharing papers and reports on Strategy and Security, Intelligence, and International Relations, reflecting his commitment to advancing knowledge in these crucial fields.
 
 ### Sinan Turunc
 
