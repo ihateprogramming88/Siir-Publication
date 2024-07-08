@@ -44,9 +44,6 @@
     <loc>https://siir.pub/hugo-gallery/</loc>
     <lastmod>2020-06-04T21:53:11+02:00</lastmod>
   </url><url>
-    <loc>https://siir.pub/resume/</loc>
-    <lastmod>2020-06-01T17:11:12+02:00</lastmod>
-  </url><url>
     <loc>https://siir.pub/</loc>
     <lastmod>2020-06-01T16:16:24+02:00</lastmod>
   </url><url>
@@ -85,6 +82,8 @@
   </url><url>
     <loc>https://siir.pub/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://siir.pub/resume/</loc>
   </url><url>
     <loc>https://siir.pub/archive/</loc>
   </url><url>
