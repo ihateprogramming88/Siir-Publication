@@ -14,10 +14,11 @@ paginate = 4
   showBlogLatest = true
   mainSections = ["blog"]
   showTaxonomyLinks = false
-  nBlogLatest = 4 # number of blog post om the home page
+  nBlogLatest = 4 # number of blog post on the home page
   blogLatestHeading = "My writing"
   showReadingTime = true
   showProgressBar = true
+  description = "A site dedicated to Security Intelligence and International Relations" # Add this line for default description
 
   [params.social]
     github = "example"
