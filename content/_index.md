@@ -8,7 +8,7 @@ menu:
     weight: 1
 ---
 
-{{<image float="right" width="16em" frame="true" src="img/horse3.jpg" >}}
+{{<image float="right" width="11em" frame="true" src="img/horse3.jpg" >}}
 
 Welcome to Security Intelligence and International Relations (SIIR), a platform dedicated to the analysis and discourse on pivotal issues in global security, intelligence studies, and international relations. SIIR is committed to bridging the gap between scholarly research and practical application, providing a forum for academics, practitioners, and policymakers to engage in meaningful dialogue and share their expertise.
 
