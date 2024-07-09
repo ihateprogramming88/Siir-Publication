@@ -8,23 +8,12 @@ menu:
     weight: 1
 ---
 
-{{<image float="right" width="16em" frame="true"  src="img/siirpub5.jpg" >}}
+{{<image float="right" width="16em" frame="true" src="img/horse3.jpg" >}}
 
-Hello, I'm Hugo Grotius and this is my personal page. I'm a Dutch lawyer and
-diplomat with experience from academia and government, having published a large
-number of books on international law, sometimes even being called the "father"
-of this field of study. I have experience working as a diplomat from serving as
-the Swedish Ambassador to France. For a more comprehensive list of my experience,
-see the [Resume]({{< ref "resume.md" >}}) tab.
+Welcome to Security Intelligence and International Relations (SIIR), a platform dedicated to the analysis and discourse on pivotal issues in global security, intelligence studies, and international relations. SIIR is committed to bridging the gap between scholarly research and practical application, providing a forum for academics, practitioners, and policymakers to engage in meaningful dialogue and share their expertise.
 
-After having been wrongfully convicted of treason in the Netherlands and
-being handed a life sentence, I managed to escape with the help of my dear
-wife Maria. She brought a chest of books to the prison where I was incarcerated
-(nothing out of the ordinary since I am an avid reader) which was then
-transported back out of the prison, with the the books replaced by yours truly!
+Our publication focuses on a diverse array of topics, including international security, strategic studies, intelligence analysis, terrorism and counter-terrorism, cybersecurity, and the impact of emerging technologies on global security. Through meticulously researched essays, timely intelligence briefs, comprehensive research reports, and succinct short-form articles, SIIR aims to offer nuanced perspectives on the complexities of contemporary international affairs.
 
-I have a small gallery of works of art depicting me under the [Gallery]({{< ref "hugo-gallery.md" >}}) tab.
-I regularly post lorem ipsum om my [Blog]({{< ref "blog/_index.md" >}}), and
-there are also examples of how to include images in the theme of the site.
-If you want to get in touch, you can find my social media links and email
-address under the [Contact]({{< ref "contact.md" >}}) tab.
+At SIIR, we believe in the power of informed debate. Our contributors include esteemed scholars, experienced security professionals, and influential policymakers, all of whom bring a wealth of knowledge and a variety of perspectives to the table. By fostering a collaborative environment, we strive to enhance understanding and develop innovative solutions to the pressing security challenges of our time.
+
+Explore our latest publications, delve into our in-depth analyses, and join us in our mission to advance the field of security intelligence and international relations. For more information or to contribute to our publication, please visit our website or contact us directly.
