@@ -13,6 +13,6 @@ To the right you see the `contact-box` shortcode demonstrated and
 below is the `social` shortcode. Use which you like more or make your
 own.
 
-j
+
 
 {{< social >}}
