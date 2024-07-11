@@ -1,23 +1,20 @@
 ---
 title: 'Gallery'
-date: 2020-06-04T21:53:11+02:00
+date: 2024-07-04T21:53:11+02:00
 menu: 
   main:
     name: "Gallery"
     weight: 200
 ---
 
-# What I look like
+# Gallery of Author's
 
 Here are some pictures of pictures or statues of me, all in the public domain by
 either age or by the use of Creative Commons CC0 license.
 
 {{< gallery-category >}}
-    {{< gallery-photo fn="hugo1.jpg" caption="Clay figure of me" >}}
-    {{< gallery-photo fn="hugo2.jpg" caption="Clay bust of me" >}}
-    {{< gallery-photo fn="hugo4.jpg" caption="Portrait of me as an adult" >}}
-    {{< gallery-photo fn="hugo5.jpg" caption="Portrait of me as a kid" >}}
-    {{< gallery-photo fn="hugo3.jpg" caption="Portrait of me getting screwed over by the Orthodox Calvinists" >}}
+    {{< gallery-photo fn="c7e93075-d8e2-4877-8881-cf39ef93aae5.jpg" caption="Dr Andrew Kapos" >}}
+    {{< gallery-photo fn="fdd78cf8-6be4-4b16-b4ba-0e7a34fb8a71.jpg" caption="Dr Andrew Kapos" >}}
 {{< /gallery-category >}}
 
 {{< gallery-modal >}}

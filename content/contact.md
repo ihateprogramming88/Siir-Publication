@@ -7,7 +7,7 @@ menu:
     weight: 255
 ---
 
-{{< contact-box >}}
+
 
 The contact information for both author's is listed on this page, please contact if you wish to discuss any topics.
 
