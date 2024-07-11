@@ -33,21 +33,21 @@ In conclusion, defensive CI and offensive CI have different yet complementary fu
 
 ## References
 
-- Office of the Inspector General Department of Justice 1997, USDOJ/OIG Special Report Unclassified Executive Summary, irp.fas.org, viewed 17 November 2023.
+  Office of the Inspector General Department of Justice 1997, *USDOJ/OIG Special Report Unclassified Executive Summary*, irp.fas.org, viewed 17 November 2023.
 
-- Braat, E & de Jong, B 2022, ‘Between a Rock and a Hard Place: The Precarious State of a Double Agent during the Cold War’, International Journal of Intelligence and CounterIntelligence, vol. 36, no. 1, pp. 78–108..
+  Braat, E & de Jong, B 2022, ‘Between a Rock and a Hard Place: The Precarious State of a Double Agent during the Cold War’, *International Journal of Intelligence and CounterIntelligence*, vol. 36, no. 1, pp. 78–108..
 
-- Congressional Research Service 2023, ‘Security Clearance Process’.
+  Congressional Research Service 2023, ‘Security Clearance Process’.
 
-- Crandall, R 2023, ‘Ana Montes: An (Almost) Perfect SpyCode Name Blue Wren: The True Story of America’s Most Dangerous Female Spy – and the Sister She Betrayed, Jim Popkin. New York: Hanover Square Press, 2023. $27.99. 352 pp.’, Survival, vol. 65, Taylor & Francis, no. 5, pp. 143–152.
+  Crandall, R 2023, ‘Ana Montes: An (Almost) Perfect SpyCode Name Blue Wren: The True Story of America’s Most Dangerous Female Spy – and the Sister She Betrayed, Jim Popkin. New York: Hanover Square Press, 2023. $27.99. 352 pp.’, *Survival*, vol. 65, no. 5, pp. 143–152.
 
-- DOD 2005, Review of the Actions Taken to Deter, Detect and Investigate the Espionage Activities of Ana Belen Montes.
+  DOD 2005, "Review of the Actions Taken to Deter, Detect and Investigate the Espionage Activities of Ana Belen Montes".
 
-- Magee, AC 2023, ‘Counterintelligence Black Swan: KGB Deception, Countersurveillance, and Active Measures Operation’, pp. 1–33.
+  Magee, Aden C. 2023. “Counterintelligence Black Swan: KGB Deception, Countersurveillance, and Active Measures Operation.” *International Journal of Intelligence and CounterIntelligence* 37 (1): 232–64. doi:10.1080/08850607.2023.2192374.
 
-- Morrison, J 2023, ‘The Art of Double-Cross: writers in strategic deception during World War Two’, Intelligence & National Security, Taylor & Francis, pp. 1–18.
+  Morrison, J 2023, ‘The Art of Double-Cross: writers in strategic deception during World War Two’, *Intelligence & National Security*, pp. 1–18.
 
-- Pereira, AR 2022, ‘Queen of Cuba’, Journal of Applied Security Research, pp. 1–12.
+  Pereira, AR 2022, ‘Queen of Cuba’, *Journal of Applied Security Research*, pp. 1–12.
 
-- Redmond, PJ 2010, ‘The Challenges of Counterintelligence’, in LK Johnson (ed.), The Oxford Handbook of National Security Intelligence, pp. 536–554.
+  Redmond, PJ 2010, ‘The Challenges of Counterintelligence’, in LK Johnson (ed.), T*he Oxford Handbook of National Security Intelligence*, pp. 536–554.
   
