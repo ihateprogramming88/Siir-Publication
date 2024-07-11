@@ -23,12 +23,11 @@ paginate = 4
 
 
   [params.social]
-    github = "example"
-    linkedin = "example"
-    email = "example@example.com"
-    mastodon = "example"
+    github = "https://github.com/ihateprogramming88"
+    email = "Anaxandreas@protonmail.com"
     rss = "rss won't use the value you give it so you can put anything here"
-    keybase = "example"
+
+    
 
 [taxonomies]
   year = "year"
