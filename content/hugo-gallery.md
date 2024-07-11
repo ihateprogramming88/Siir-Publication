@@ -1,10 +1,10 @@
 ---
 title: 'Gallery'
-date: 2024-07-04T21:53:11+02:00
+date: 2024-07-04T22:53:11+02:00
 menu: 
   main:
     name: "Gallery"
-    weight: 300
+    weight: 200
 ---
 
 ## Dr Andrew Kapos
