@@ -8,7 +8,7 @@ mainSections = ["blog"]
 paginate = 4
 
 [params]
-  author = "Hugo de Groot"
+  author = "SIIR"
   siteHeading = "Security Intelligence and International Relations" # defaults to author
   favicon = "horse.png" # Adds a small icon next to the page title in a tab
   showBlogLatest = true
