@@ -10,12 +10,12 @@ paginate = 4
 [params]
   author = "Hugo de Groot"
   siteHeading = "Security Intelligence and International Relations" # defaults to author
-  favicon = "hugo_grotius.png" # Adds a small icon next to the page title in a tab
+  favicon = "horse.png" # Adds a small icon next to the page title in a tab
   showBlogLatest = true
   mainSections = ["blog"]
   showTaxonomyLinks = false
   nBlogLatest = 4 # number of blog post on the home page
-  blogLatestHeading = "My writing"
+  blogLatestHeading = "Latest"
   showReadingTime = true
   showProgressBar = true
   description = "A site dedicated to Security Intelligence and International Relations" # Add this line for default description
