@@ -35,7 +35,7 @@ In conclusion, defensive CI and offensive CI have different yet complementary fu
 
   Office of the Inspector General Department of Justice 1997, *USDOJ/OIG Special Report Unclassified Executive Summary*, irp.fas.org, viewed 17 November 2023.
 
-  Braat, E & de Jong, B 2022, ‘Between a Rock and a Hard Place: The Precarious State of a Double Agent during the Cold War’, *International Journal of Intelligence and CounterIntelligence*, vol. 36, no. 1, pp. 78–108..
+  Braat, E & de Jong, B 2022, ‘Between a Rock and a Hard Place: The Precarious State of a Double Agent during the Cold War’, *International Journal of Intelligence and CounterIntelligence*, vol. 36, no. 1, pp. 78–108.
 
   Congressional Research Service 2023, ‘Security Clearance Process’.
 
