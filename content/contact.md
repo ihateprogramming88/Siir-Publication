@@ -9,9 +9,7 @@ menu:
 
 {{< contact-box >}}
 
-To the right you see the `contact-box` shortcode demonstrated and
-below is the `social` shortcode. Use which you like more or make your
-own.
+The contact information for both author's is listed on this page, please contact if you wish to discuss any topics.
 
 
 
