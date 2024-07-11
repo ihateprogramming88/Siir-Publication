@@ -23,11 +23,11 @@ paginate = 4
 
 
   [params.social]
-    github = "https://github.com/ihateprogramming88"
+    github = "ihateprogramming88"
     email = "Anaxandreas@protonmail.com"
     rss = "rss won't use the value you give it so you can put anything here"
 
-    
+
 
 [taxonomies]
   year = "year"

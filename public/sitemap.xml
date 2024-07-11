@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://siir.pub/</loc>
-    <lastmod>2024-07-01T16:16:24+02:00</lastmod>
+    <loc>https://siir.pub/tags/counter-intelligence/</loc>
+    <lastmod>2024-07-11T16:00:50+10:00</lastmod>
+  </url><url>
+    <loc>https://siir.pub/blog/2024/07/defensive-and-offensive-counterintelligence/</loc>
+    <lastmod>2024-07-11T16:00:50+10:00</lastmod>
+  </url><url>
+    <loc>https://siir.pub/tags/intelligence/</loc>
+    <lastmod>2024-07-11T16:00:50+10:00</lastmod>
+  </url><url>
+    <loc>https://siir.pub/categories/intelligence/</loc>
+    <lastmod>2024-07-11T16:00:50+10:00</lastmod>
+  </url><url>
+    <loc>https://siir.pub/blog/</loc>
+    <lastmod>2024-07-04T23:15:33+02:00</lastmod>
+  </url><url>
+    <loc>https://siir.pub/contact/</loc>
+    <lastmod>2024-07-04T23:03:21+02:00</lastmod>
   </url><url>
     <loc>https://siir.pub/tags/</loc>
     <lastmod>2020-06-06T22:49:19+02:00</lastmod>
@@ -11,77 +26,11 @@
     <loc>https://siir.pub/categories/</loc>
     <lastmod>2020-06-06T22:48:29+02:00</lastmod>
   </url><url>
-    <loc>https://siir.pub/tags/latin/</loc>
-    <lastmod>2020-06-04T23:30:14+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/categories/lorem/</loc>
-    <lastmod>2020-06-04T23:30:14+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/medieval/</loc>
-    <lastmod>2020-06-04T23:30:14+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/picture/</loc>
-    <lastmod>2020-06-04T23:30:14+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/blog/2020/06/picture-shortcode-test/</loc>
-    <lastmod>2020-06-04T23:30:14+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/categories/theme/</loc>
-    <lastmod>2020-06-04T23:30:14+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/ipsum/</loc>
-    <lastmod>2020-06-04T23:21:09+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/blog/2020/06/tempora-maxime/</loc>
-    <lastmod>2020-06-04T23:21:09+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/test-tag/</loc>
-    <lastmod>2020-06-04T23:21:09+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/blog/</loc>
-    <lastmod>2020-06-04T23:15:33+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/contact/</loc>
-    <lastmod>2020-06-04T23:03:21+02:00</lastmod>
-  </url><url>
     <loc>https://siir.pub/hugo-gallery/</loc>
     <lastmod>2020-06-04T21:53:11+02:00</lastmod>
   </url><url>
-    <loc>https://siir.pub/tags/dolor/</loc>
-    <lastmod>2020-06-01T16:09:23+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/blog/2020/06/lorem/</loc>
-    <lastmod>2020-06-01T16:09:23+02:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/blog/2019/03/markdown-syntax-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/blog/2019/03/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://siir.pub/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://siir.pub/</loc>
+    <lastmod>2020-06-01T16:16:24+02:00</lastmod>
   </url><url>
     <loc>https://siir.pub/resume/</loc>
   </url><url>
