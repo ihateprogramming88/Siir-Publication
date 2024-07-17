@@ -5,6 +5,12 @@
         <!-- Add your custom CSS file here -->
         <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
         
+        <!-- Dark mode CSS -->
+        <link disabled rel="preload" id="dark-theme" onload="this.onload=null;this.rel='stylesheet'" href="{{ "css/dark.css" | relURL }}" type="text/css" as="style">
+        
+        <!-- Dark mode toggle CSS -->
+        <link rel="stylesheet" href="{{ "css/dark-toggle.css" | relURL }}">
+        
         <!-- Open Graph tags for link previews -->
         <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
         <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
@@ -22,7 +28,13 @@
         </div>
         {{- partial "footer.html" . -}}
 
-        <!-- Add your JavaScript file here -->
+        <!-- Dark mode toggle button -->
+        <a id="dark-toggle" class="dark-mode-toggle" aria-label="dark-mode-toggle">
+          <img src="/img/4.svg" alt="Toggle dark mode" id="theme-toggle-icon">
+        </a>
+
+        <!-- Add your JavaScript files here -->
         <script src="{{ "js/reading-progress.js" | relURL }}"></script>
+        <script src="{{ "js/dark-mode.js" | relURL }}"></script>
     </body>
 </html>

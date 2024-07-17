@@ -21,7 +21,6 @@ paginate = 4
   description = "A site dedicated to Security Intelligence and International Relations" # Add this line for default description
   defaultOGImage = "img/horse4.jpg"  # Adjust the path as necessary
 
-
   [params.social]
     github = "ihateprogramming88"
     email = "drandrewkapos@gmail.com"

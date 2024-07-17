@@ -16,8 +16,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
 </head>
-
         <link rel="stylesheet" href="/css/custom.css">
+        
+        
+        <link disabled rel="preload" id="dark-theme" onload="this.onload=null;this.rel='stylesheet'" href="/css/dark.css" type="text/css" as="style">
+        
+        
+        <link rel="stylesheet" href="/css/dark-toggle.css">
         
         
         <meta property="og:title" content="Tags | SIIR">
@@ -85,6 +90,12 @@
     <span></span>
 </footer>
 
+        <a id="dark-toggle" class="dark-mode-toggle" aria-label="dark-mode-toggle">
+          <img src="/img/4.svg" alt="Toggle dark mode" id="theme-toggle-icon">
+        </a>
+
+        
         <script src="/js/reading-progress.js"></script>
+        <script src="/js/dark-mode.js"></script>
     </body>
 </html>
