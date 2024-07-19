@@ -28,8 +28,13 @@
         </div>
         {{- partial "footer.html" . -}}
 
-    
+        <!-- Dark mode toggle button -->
+        <a id="dark-toggle" class="dark-mode-toggle" aria-label="dark-mode-toggle">
+          <img src="/img/4.svg" alt="Toggle dark mode" id="theme-toggle-icon">
+        </a>
+
         <!-- Add your JavaScript files here -->
         <script src="{{ "js/reading-progress.js" | relURL }}"></script>
+        <script src="{{ "js/dark-mode.js" | relURL }}"></script>
     </body>
 </html>

@@ -1,0 +1,39 @@
+/* dark-mode.css */
+[data-theme="dark"] {
+    --midnight-blue: #0a8ac7;
+    --midnight-matte: #6fa3bf;
+    --text-color: #e0e0e0;
+    --tab-border-color: #555;
+    --tab-active-color: #b8bbc0;
+    --heading-gray: #e0e0e0;
+    --caption-color: #888;
+    --close-button-gray: #333;
+    --close-hover-gray: #555;
+    --contactlinks-color: #333;
+    --contactlinks-text-color: #b8b3c0;
+    --cv-red: #d67a6e;
+    --light-text: #b0abc0;
+    --very-light-text: #a0a0a0;
+    --medium-light-text: #b0abc0;
+    --code-background: #2d2d2d;
+    --codeblock-background: #1c1e21;
+    --code-text: #f8f8f2;
+  }
+  
+  body {
+    background-color: var(--code-background);
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--midnight-blue);
+  }
+  
+  code {
+    background-color: var(--code-background);
+    color: var(--code-text);
+  }
+  
+  pre {
+    background-color: var(--codeblock-background);
+  }
