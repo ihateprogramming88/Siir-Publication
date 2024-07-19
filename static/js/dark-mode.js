@@ -22,5 +22,5 @@ document.getElementById("dark-toggle").addEventListener("click", function () {
   }
 });
 
-// On page load, set the theme based on user's previous preference
+// On page load, set the theme based on user's previous preferencea
 setThemeMode(localStorage.getItem("dark-mode-theme") || "light");
