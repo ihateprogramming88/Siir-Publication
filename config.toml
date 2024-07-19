@@ -20,7 +20,8 @@ paginate = 4
   showProgressBar = true
   description = "A site dedicated to Security Intelligence and International Relations" # Add this line for default description
   defaultOGImage = "img/horse4.jpg"  # Adjust the path as necessary
-
+  custom_css = ["css/styles.scss"]
+  
   [params.social]
     github = "ihateprogramming88"
     email = "drandrewkapos@gmail.com"
