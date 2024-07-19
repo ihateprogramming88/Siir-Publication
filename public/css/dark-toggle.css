@@ -1,12 +1,12 @@
 #dark-toggle {
     position: fixed;
     top: 20px;  /* Adjust the distance from the top as needed */
-    right: 20px;  /* Adjust the distance from the right as needed */
+    right: 20px;  /* Adjust the distance from the right as neededs */
     z-index: 1000;
   }
   
   #dark-toggle img {
-    width: 30px; /* Adjust the size as needed */
+    width: 30px; /* Adjust the size as neededs */
     height: 30px; /* Adjust the size as needed */
     cursor: pointer;
   }
