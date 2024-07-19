@@ -1,3 +1,4 @@
+/* Existing styles */
 #progressBar {
   --scrollAmount: 0%;
   width: var(--scrollAmount);
@@ -9,6 +10,52 @@
   z-index: 9999;
 }
 
-.image-shortcode.frame.right {
-  width: 18em;
+/* Updated image shortcode styles */
+.image-shortcode {
+  max-width: 100%;
+}
+
+.image-shortcode.frame {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.image-shortcode.right {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.image-shortcode.left {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+/* Dynamic width classes */
+.image-shortcode[class*="width-"] {
+  width: var(--image-width);
+}
+
+/* Dynamic height classes */
+.image-shortcode[class*="height-"] {
+  height: var(--image-height);
+}
+
+/* Example specific width classes */
+.image-shortcode.width-18em {
+  --image-width: 18em;
+}
+
+.image-shortcode.width-300px {
+  --image-width: 300px;
+}
+
+/* Example specific height classes */
+.image-shortcode.height-200px {
+  --image-height: 200px;
+}
+
+.image-shortcode.height-15em {
+  --image-height: 15em;
 }
