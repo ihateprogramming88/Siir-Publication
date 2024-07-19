@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
         
         <!-- Dark mode CSS -->
-        <link rel="stylesheet" id="dark-theme" href="/css/dark.css" type="text/css" disabled>
+        <link rel="stylesheet" id="dark-theme" href="{{ "css/dark.css" | relURL }}" type="text/css" disabled>
         
         <!-- Dark mode toggle CSS -->
         <link rel="stylesheet" href="{{ "css/dark-toggle.css" | relURL }}">
@@ -19,6 +19,11 @@
         <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     </head>
     <body>
+        <!-- Dark mode toggle button -->
+        <a id="dark-toggle" class="dark-mode-toggle" aria-label="dark-mode-toggle">
+            <img src="{{ "img/4.svg" | relURL }}" alt="Toggle dark mode" id="theme-toggle-icon">
+        </a>
+
         <!-- Reading progress bar -->
         <div id="progressBar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
         
@@ -27,11 +32,6 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
-
-        <!-- Dark mode toggle buttons -->
-        <a id="dark-toggle" class="dark-mode-toggle" aria-label="dark-mode-toggle">
-          <img src="/img/4.svg" alt="Toggle dark mode" id="theme-toggle-icon">
-        </a>
 
         <!-- Add your JavaScript files here -->
         <script src="{{ "js/reading-progress.js" | relURL }}"></script>
