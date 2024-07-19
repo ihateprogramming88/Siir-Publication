@@ -8,3 +8,7 @@
   left: 0;
   z-index: 9999;
 }
+
+.image-shortcode.frame.right {
+  width: 18em;
+}
