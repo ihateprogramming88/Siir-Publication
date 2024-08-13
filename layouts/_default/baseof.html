@@ -4,7 +4,7 @@
         {{- partial "head.html" . -}}
         <!-- Add your custom CSS file here -->
         <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
-        
+        <link rel="stylesheet" href="{{ "css/dark.css" | relURL }}">
      
         <!-- Open Graph tags for link previews -->
         <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
@@ -29,7 +29,5 @@
         <script src="{{ "js/reading-progress.js" | relURL }}"></script>
         <script src="{{ "js/dark-mode.js" | relURL }}"></script>
         <script src="{{ "js/toggle.js" | relURL }}"></script>
-        <script src="{{ "js/darkmode-init.js" | relURL }}"></script>
-        
     </body>
 </html>

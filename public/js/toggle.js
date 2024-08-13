@@ -1,5 +1,7 @@
-            function addDarkmodeWidget() {
-              new Darkmode().showWidget();
-            }
-            window.addEventListener('load', addDarkmodeWidget);
-          
+document.addEventListener('DOMContentLoaded', function() {
+    var darkmode = new Darkmode();
+    darkmode.button.addEventListener('click', function() {
+      darkmode.toggle();
+    });
+  });
+  
