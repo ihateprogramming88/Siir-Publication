@@ -121,7 +121,7 @@
                 backgroundColor: '#fff',
                 buttonColorDark: '#100f2c',
                 buttonColorLight: '#fff',
-                label: '',
+                label: '🌓',
                 saveInCookies: !0,
                 autoMatchOsTheme: !0
               },
