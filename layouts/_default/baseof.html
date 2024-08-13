@@ -28,11 +28,6 @@
         <!-- Add your JavaScript files here -->
         <script src="{{ "js/reading-progress.js" | relURL }}"></script>
         <script src="{{ "js/dark-mode.js" | relURL }}"></script>
-        <script>
-            function addDarkmodeWidget() {
-              new Darkmode().showWidget();
-            }
-            window.addEventListener('load', addDarkmodeWidget);
-          </script>
+        <script src="{{ "js/toggle.js" | relURL }}"></script>
     </body>
 </html>
