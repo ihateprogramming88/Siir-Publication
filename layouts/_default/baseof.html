@@ -5,12 +5,7 @@
         <!-- Add your custom CSS file here -->
         <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
         
-        <!-- Dark mode CSS -->
-        <link rel="stylesheet" id="dark-theme" href="{{ "css/dark.css" | relURL }}" type="text/css" disabled>
-        
-        <!-- Dark mode toggle CSS -->
-        <link rel="stylesheet" href="{{ "css/dark-toggle.css" | relURL }}">
-        
+     
         <!-- Open Graph tags for link previews -->
         <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
         <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
@@ -19,10 +14,7 @@
         <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     </head>
     <body>
-        <!-- Dark mode toggle button -->
-        <a id="dark-toggle" class="dark-mode-toggle" aria-label="dark-mode-toggle">
-            <img src="{{ "img/4.svg" | relURL }}" alt="Toggle dark mode" id="theme-toggle-icon">
-        </a>
+      
 
         <!-- Reading progress bar -->
         <div id="progressBar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
@@ -36,5 +28,11 @@
         <!-- Add your JavaScript files here -->
         <script src="{{ "js/reading-progress.js" | relURL }}"></script>
         <script src="{{ "js/dark-mode.js" | relURL }}"></script>
+        <script>
+            function addDarkmodeWidget() {
+              new Darkmode().showWidget();
+            }
+            window.addEventListener('load', addDarkmodeWidget);
+          </script>
     </body>
 </html>

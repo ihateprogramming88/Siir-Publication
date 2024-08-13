@@ -4,9 +4,10 @@
     <title>SIIR - Tags </title>
     <link rel="stylesheet" type="text/css" href="/css/fonts.css">
     <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
+
     
     
-    <link rel="stylesheet" type="text/css" href="/css/styles.min.cc142874440d88031ae1f8ef59fad553363750cb40ab5ccb97e5223a0c4e24bc.css">
+    <link rel="stylesheet" type="text/css" href="/css/userstyles.min.cc142874440d88031ae1f8ef59fad553363750cb40ab5ccb97e5223a0c4e24bc.css">
     
     
     <link rel="icon" href="/horse.png">
@@ -16,14 +17,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
 </head>
+
+
         <link rel="stylesheet" href="/css/custom.css">
         
-        
-        <link rel="stylesheet" id="dark-theme" href="/css/dark.css" type="text/css" disabled>
-        
-        
-        <link rel="stylesheet" href="/css/dark-toggle.css">
-        
+     
         
         <meta property="og:title" content="Tags | SIIR">
         <meta property="og:description" content="A site dedicated to Security Intelligence and International Relations">
@@ -32,10 +30,7 @@
         <meta property="og:type" content="website">
     </head>
     <body>
-        
-        <a id="dark-toggle" class="dark-mode-toggle" aria-label="dark-mode-toggle">
-            <img src="/img/4.svg" alt="Toggle dark mode" id="theme-toggle-icon">
-        </a>
+      
 
         
         <div id="progressBar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div><header class="page-header">
@@ -97,5 +92,11 @@
 
         <script src="/js/reading-progress.js"></script>
         <script src="/js/dark-mode.js"></script>
+        <script>
+            function addDarkmodeWidget() {
+              new Darkmode().showWidget();
+            }
+            window.addEventListener('load', addDarkmodeWidget);
+          </script>
     </body>
 </html>
