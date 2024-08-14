@@ -123,7 +123,7 @@
                 buttonColorLight: '#fff',
                 label: '🌓',
                 saveInCookies: !0,
-                autoMatchOsTheme: !0
+                autoMatchOsTheme: !0,
               },
               t
             );
@@ -178,7 +178,6 @@
               document.body.insertBefore(a, document.body.firstChild),
               document.body.insertBefore(o, document.body.firstChild),
               document.body.insertBefore(i, document.body.firstChild),
-              this.addStyle(n),
               (this.button = a),
               (this.layer = o),
               (this.saveInCookies = t.saveInCookies),
@@ -189,16 +188,6 @@
         return (
           (t = e),
           (n = [
-            {
-              key: 'addStyle',
-              value: function (e) {
-                var t = document.createElement('link');
-                t.setAttribute('rel', 'stylesheet'),
-                  t.setAttribute('type', 'text/css'),
-                  t.setAttribute('href', 'data:text/css;charset=UTF-8,' + encodeURIComponent(e)),
-                  document.head.appendChild(t);
-              }
-            },
             {
               key: 'showWidget',
               value: function () {
@@ -235,7 +224,7 @@
                         window.localStorage.setItem('darkmode', !r);
                     });
                 }
-              }
+              },
             },
             {
               key: 'toggle',
@@ -250,21 +239,21 @@
                     n.setAttribute('aria-label', 'De-activate dark mode'),
                     n.setAttribute('aria-checked', 'true');
                 }
-              }
+              },
             },
             {
               key: 'isActivated',
               value: function () {
                 return r ? document.body.classList.contains('darkmode--activated') : null;
-              }
-            }
+              },
+            },
           ]) && o(t.prototype, n),
           a && o(t, a),
           e
         );
       })();
       t.default = a;
-    }
+    },
   ]);
 });
 
