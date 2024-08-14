@@ -167,15 +167,16 @@
             var d = 'true' === window.localStorage.getItem('darkmode'),
               s = t.autoMatchOsTheme && window.matchMedia('(prefers-color-scheme: dark)').matches,
               l = null === window.localStorage.getItem('darkmode');
-            ((!0 === d && t.saveInCookies) || (l && s)) &&
-              (o.classList.add(
+            if ((d && t.saveInCookies) || (l && s)) {
+              o.classList.add(
                 'darkmode-layer--expanded',
                 'darkmode-layer--simple',
                 'darkmode-layer--no-transition'
-              ),
-              a.classList.add('darkmode-toggle--white'),
-              document.body.classList.add('darkmode--activated')),
-              document.body.insertBefore(a, document.body.firstChild),
+              );
+              a.classList.add('darkmode-toggle--white');
+              document.body.classList.add('darkmode--activated');
+            }
+            document.body.insertBefore(a, document.body.firstChild),
               document.body.insertBefore(o, document.body.firstChild),
               document.body.insertBefore(i, document.body.firstChild),
               (this.button = a),
@@ -236,8 +237,8 @@
                   e.classList.toggle('darkmode-layer--simple'),
                     document.body.classList.toggle('darkmode--activated'),
                     window.localStorage.setItem('darkmode', !t),
-                    n.setAttribute('aria-label', 'De-activate dark mode'),
-                    n.setAttribute('aria-checked', 'true');
+                    n.setAttribute('aria-label', t ? 'Activate dark mode' : 'De-activate dark mode'),
+                    n.setAttribute('aria-checked', t ? 'false' : 'true');
                 }
               },
             },

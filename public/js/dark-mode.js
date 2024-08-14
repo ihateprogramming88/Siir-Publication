@@ -123,7 +123,7 @@
                 buttonColorLight: '#fff',
                 label: '🌓',
                 saveInCookies: !0,
-                autoMatchOsTheme: !0
+                autoMatchOsTheme: !0,
               },
               t
             );
@@ -163,22 +163,10 @@
             (a.innerHTML = t.label),
               a.classList.add('darkmode-toggle--inactive'),
               o.classList.add('darkmode-layer'),
-              i.classList.add('darkmode-background');
-            var d = 'true' === window.localStorage.getItem('darkmode'),
-              s = t.autoMatchOsTheme && window.matchMedia('(prefers-color-scheme: dark)').matches,
-              l = null === window.localStorage.getItem('darkmode');
-            ((!0 === d && t.saveInCookies) || (l && s)) &&
-              (o.classList.add(
-                'darkmode-layer--expanded',
-                'darkmode-layer--simple',
-                'darkmode-layer--no-transition'
-              ),
-              a.classList.add('darkmode-toggle--white'),
-              document.body.classList.add('darkmode--activated')),
+              i.classList.add('darkmode-background'),
               document.body.insertBefore(a, document.body.firstChild),
               document.body.insertBefore(o, document.body.firstChild),
               document.body.insertBefore(i, document.body.firstChild),
-              this.addStyle(n),
               (this.button = a),
               (this.layer = o),
               (this.saveInCookies = t.saveInCookies),
@@ -189,16 +177,6 @@
         return (
           (t = e),
           (n = [
-            {
-              key: 'addStyle',
-              value: function (e) {
-                var t = document.createElement('link');
-                t.setAttribute('rel', 'stylesheet'),
-                  t.setAttribute('type', 'text/css'),
-                  t.setAttribute('href', 'data:text/css;charset=UTF-8,' + encodeURIComponent(e)),
-                  document.head.appendChild(t);
-              }
-            },
             {
               key: 'showWidget',
               value: function () {
@@ -233,9 +211,10 @@
                         t.classList.toggle('darkmode-toggle--white'),
                         document.body.classList.toggle('darkmode--activated'),
                         window.localStorage.setItem('darkmode', !r);
-                    });
+                    }),
+                    t.classList.remove('darkmode-toggle--white');
                 }
-              }
+              },
             },
             {
               key: 'toggle',
@@ -247,24 +226,24 @@
                   e.classList.toggle('darkmode-layer--simple'),
                     document.body.classList.toggle('darkmode--activated'),
                     window.localStorage.setItem('darkmode', !t),
-                    n.setAttribute('aria-label', 'De-activate dark mode'),
-                    n.setAttribute('aria-checked', 'true');
+                    n.setAttribute('aria-label', t ? 'Activate dark mode' : 'De-activate dark mode'),
+                    n.setAttribute('aria-checked', t ? 'false' : 'true');
                 }
-              }
+              },
             },
             {
               key: 'isActivated',
               value: function () {
                 return r ? document.body.classList.contains('darkmode--activated') : null;
-              }
-            }
+              },
+            },
           ]) && o(t.prototype, n),
           a && o(t, a),
           e
         );
       })();
       t.default = a;
-    }
+    },
   ]);
 });
 
