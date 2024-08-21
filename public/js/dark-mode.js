@@ -163,8 +163,20 @@
             (a.innerHTML = t.label),
               a.classList.add('darkmode-toggle--inactive'),
               o.classList.add('darkmode-layer'),
-              i.classList.add('darkmode-background'),
-              document.body.insertBefore(a, document.body.firstChild),
+              i.classList.add('darkmode-background');
+            var d = 'true' === window.localStorage.getItem('darkmode'),
+              s = t.autoMatchOsTheme && window.matchMedia('(prefers-color-scheme: dark)').matches,
+              l = null === window.localStorage.getItem('darkmode');
+            if ((d && t.saveInCookies) || (l && s)) {
+              o.classList.add(
+                'darkmode-layer--expanded',
+                'darkmode-layer--simple',
+                'darkmode-layer--no-transition'
+              );
+              a.classList.add('darkmode-toggle--white');
+              document.body.classList.add('darkmode--activated');
+            }
+            document.body.insertBefore(a, document.body.firstChild),
               document.body.insertBefore(o, document.body.firstChild),
               document.body.insertBefore(i, document.body.firstChild),
               (this.button = a),
@@ -211,8 +223,7 @@
                         t.classList.toggle('darkmode-toggle--white'),
                         document.body.classList.toggle('darkmode--activated'),
                         window.localStorage.setItem('darkmode', !r);
-                    }),
-                    t.classList.remove('darkmode-toggle--white');
+                    });
                 }
               },
             },
