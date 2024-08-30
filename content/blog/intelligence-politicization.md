@@ -1,5 +1,5 @@
 ---
-title: 'Intelligence Politicisation'
+title: 'Case Study Analysis | Intelligence politicisation is considered a policy challenge. It can lead to intelligence failures or policy mishaps. However, there are those who argue that intelligence politicisation can be a positive thing. Can intelligence politicisation be a positive thing? 
 date: 2024-08-29T16:00:50+10:00
 Tags: [Intelligence, Politicisation]
 Categories: [Intelligence]
