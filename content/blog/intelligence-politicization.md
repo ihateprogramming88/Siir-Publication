@@ -48,38 +48,7 @@ This paper has shown that intelligence politicisation is a major threat to natio
  
 
  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-## Reference list
+## References
 
 Agrell, W & Treverton, GF 2015, ‘Politicization’, *National Intelligence and Science*, pp. 158–182.
 
